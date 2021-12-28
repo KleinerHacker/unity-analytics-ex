@@ -1,6 +1,6 @@
 {
   "name": "org.pcsoft.analytics-ex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Unity Analytics Extension",
   "description": "Extension for Unity Analytics usage.",
   "unity": "2021.1",
@@ -10,7 +10,8 @@
     "privacy"
   ],
   "dependencies": {
-    "org.pcsoft.prefs-ex": "1.2.0"
+    "org.pcsoft.prefs-ex": "1.2.0",
+    "com.unity.analytics": "3.6.12"
   },
   "author": {
     "name": "Pfeiffer C Soft",

@@ -11,6 +11,7 @@ namespace UnityAnalyticsEx.Runtime.analytics_ex.Scripts.Runtime
             Debug.Log("Initialize analytics system");
             var allow = AnalyticsEx.IsAnalyticsActivatedEx.GetValueOrDefault(false);
             Analytics.enabled = allow;
+            Debug.Log("> Analytics: " + allow);
         }
     }
 }

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Analytics;
 
 namespace UnityAnalyticsEx.Runtime.analytics_ex.Scripts.Runtime
 {
@@ -9,6 +10,7 @@ namespace UnityAnalyticsEx.Runtime.analytics_ex.Scripts.Runtime
         {
             Debug.Log("Initialize analytics system");
             var allow = AnalyticsEx.IsAnalyticsActivatedEx.GetValueOrDefault(false);
+            Analytics.enabled = allow;
         }
     }
 }
